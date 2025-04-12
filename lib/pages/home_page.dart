@@ -71,8 +71,7 @@ class _HomePageState extends State<HomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:
-          Color.fromARGB(255, 181, 223, 220), // Updated Background Color
+      backgroundColor: Colors.white, // Updated Background Color
       drawer: MyDrawer(),
       body: NestedScrollView(
         headerSliverBuilder: (context, innerBoxIsScrolled) => [

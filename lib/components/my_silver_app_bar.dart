@@ -26,7 +26,7 @@ class MySilverAppBar extends StatelessWidget {
               color: Colors.white), // Ensuring good contrast
         ),
       ],
-      backgroundColor: Color(0xFF80CBC4), //  for contrast
+      backgroundColor: Theme.of(context).colorScheme.surface, //  for contrast
       foregroundColor: Colors.white, // White for better readability
       title: const Text(
         'Sunset Diner',
